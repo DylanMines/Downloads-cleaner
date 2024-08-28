@@ -67,6 +67,9 @@ def moveFiles(path,fileExts):
         fileExt = os.path.splitext(file)[-1].lower()
         for ext in fileExts:
             if "."+ext == fileExt:
+                #print(path+file)
+                if os.path.isfile(path+"/"+file):
+                    continue
                 global num_files
                 num_files+=1
                 shutil.move(downloads+"/"+file, path)
