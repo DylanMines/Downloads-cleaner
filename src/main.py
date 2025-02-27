@@ -10,12 +10,12 @@ font = "Georga"
 
 file_types = {
     "Pictures" : ["png","jpg","jpeg","gif","tiff","webp","av4","svg"],
-    "Videos" : ["mp4","webm","mov","avi","mkv","wmv","avi"],
+    "Videos" : ["mp4","webm","mov","avi","mkv","wmv","avi",".3gp"],
     "Music" : ["mp3","wma","aac","wav","ogg","m4a"],
     "Documents" : ["pdf","docx","odt","xls","xlsx","zip","txt","ppt","psd"],
-    "Programs" : ["exe","com","msi","appimage","dll","deb","ppa"],
+    "Applications" : ["exe","com","msi","appimage","dll","deb","ppa","rpm","flatpakref","swf"],
     "3D Objects" : ["obj","stl","3ds","fbx","3dm","iges","stp","step"],
-    "Programming" : ["cpp","java","lua","py","c","js","json","html","css"]
+    "Programming" : ["cpp","java","lua","py","c","js","json","html","css","mlx","mat"],
 }
 
 root = Tk()
