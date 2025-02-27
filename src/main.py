@@ -19,7 +19,7 @@ file_types = {
 }
 
 root = Tk()
-size = [450,500]
+size = [620,700]
 root.geometry(str(size[0])+"x"+str(size[1]))
 root.title("Download Cleaner")
 
